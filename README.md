@@ -1,37 +1,23 @@
-# Simple Python Calculator
+# 📚 SKILL HUB – Full-Stack Course Selling Platform
 
-A lightweight, interactive command-line calculator application built using Python. This script prompts the user for two numbers and an operator, executing the calculation dynamically in the terminal.
+## 🚀 Overview
+StudyNotion is an edtech platform that allows instructors to create and sell courses, and students to enroll and access content securely.
 
-## 🚀 Features
-* Supports standard arithmetic and conditional logic processing:
-  * Addition (`+`)
-  * Subtraction (`-`)
-  * Multiplication (`*`)
-  * Division (`/`)
-  * Modulus / Remainder (`%`)
-  * Exponentiation / Power (`**`)
-* Robust fallback handling for invalid operations.
+## 🔧 Features
+- Secure authentication using JWT
+- Online payment via Razorpay integration
+- File uploads using Cloudinary
+- Student and Instructor dashboards
+- Review and rating system with ApexCharts
 
-## 🛠️ Requirements
-* Python 3.x installed on your local machine.
+## 🛠️ Tech Stack
+**Frontend**: React.js, Redux, MUI  
+**Backend**: Node.js, Express.js, MongoDB  
+**Others**: Cloudinary, Razorpay, JWT, Render, Vercel
 
-## 💻 How to Run
-
-1. Clone or download this repository to your local machine.
-2. Open your terminal or command prompt inside the project folder.
-3. Execute the script using the following command:
-   ```bash
-   python calculator.py
-
-📈 Sample Workflow
-   Enter first number: 4
-Enter operator(+,-,%,*,/,**): **
-Enter second number: 3
-64
-
-Enter first number: 5
-Enter operator(+,-,%,*,/,**): *
-Enter second number: 3
-15
-
-
+## 📦 Getting Started
+Clone the repo and install dependencies:
+```bash
+git clone https://github.com/kunal-in-git/Study-Notion
+cd Study-Notion
+npm install
